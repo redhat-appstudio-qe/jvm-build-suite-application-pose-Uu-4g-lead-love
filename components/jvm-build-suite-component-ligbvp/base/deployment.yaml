@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-ligbvp
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-etkb-tenant/jvm-build-suite-application-pose/jvm-build-suite-component-ligbvp@sha256:5ba64320a8fa6d0e332f0f6fec926f85cdfb85d71928e322554e1e9c68952538
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
